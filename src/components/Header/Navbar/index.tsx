@@ -17,25 +17,25 @@ function Navbar(): JSX.Element {
         </div>
         <div className="flex items-center gap-14 md:hidden">
           <a
-            href="#"
+            href="#experiences"
             className="text-base font-light text-white hover:text-amber hover:transition-colors"
           >
             Furniture
           </a>
           <a
-            href="#"
+            href="#sellingProducts"
             className="text-base font-light text-white hover:text-amber hover:transition-colors"
           >
             Shop
           </a>
           <a
-            href="#"
+            href="#whyUs"
             className="text-base font-light text-white hover:text-amber hover:transition-colors"
           >
             About Us
           </a>
           <a
-            href="#"
+            href="#footer"
             className="text-base font-light text-white hover:text-amber hover:transition-colors"
           >
             Contact
