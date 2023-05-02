@@ -12,21 +12,21 @@ function Footer(): JSX.Element {
         <div className="flex justify-between gap-28 sm:flex-wrap md:w-full md:gap-8">
           <div className="grid gap-4">
             <p className="mb-1 text-base font-light text-amber">Services</p>
-            <p className="text-base font-light text-obsidian">Email Marketing</p>
-            <p className="text-base font-light text-obsidian">Campaigns</p>
-            <p className="text-base font-light text-obsidian">Branding</p>
+            <a className="text-base font-light text-obsidian" href="#">Email Marketing</a>
+            <a className="text-base font-light text-obsidian" href="#">Campaigns</a>
+            <a className="text-base font-light text-obsidian" href="#">Branding</a>
           </div>
           <div className="grid gap-4">
             <p className="mb-1 text-base font-light text-amber">Furnitures</p>
-            <p className="text-base font-light text-obsidian">Beds</p>
-            <p className="text-base font-light text-obsidian">Chair</p>
-            <p className="text-base font-light text-obsidian">All</p>
+            <a className="text-base font-light text-obsidian" href="#">Beds</a>
+            <a className="text-base font-light text-obsidian" href="#">Chair</a>
+            <a className="text-base font-light text-obsidian" href="#">All</a>
           </div>
           <div className="grid gap-4">
             <p className="mb-1 text-base font-light text-amber">Follow Us</p>
-            <p className="text-base font-light text-obsidian">Facebook</p>
-            <p className="text-base font-light text-obsidian">Twitter</p>
-            <p className="text-base font-light text-obsidian">Instagram</p>
+            <a className="text-base font-light text-obsidian" href="#">Facebook</a>
+            <a className="text-base font-light text-obsidian" href="#">Twitter</a>
+            <a className="text-base font-light text-obsidian" href="#">Instagram</a>
           </div>
         </div>
       </div>
@@ -37,10 +37,10 @@ function Footer(): JSX.Element {
           </p>
         </div>
         <div className="flex gap-4">
-          <p className="text-base font-light text-obsidian">
+          <a className="text-base font-light text-obsidian" href="#">
             Terms & Conditions
-          </p>
-          <p className="text-base font-light text-obsidian">Privacy Policy</p>
+          </a>
+          <a className="text-base font-light text-obsidian" href="#">Privacy Policy</a>
         </div>
       </div>
     </footer>
