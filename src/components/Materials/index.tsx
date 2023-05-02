@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Materials(): JSX.Element {
   return (
-    <section className="flex min-h-screen w-full items-center justify-around bg-white py-12 lg:flex-col-reverse lg:px-4">
+    <section id="materials" className="flex min-h-screen w-full items-center justify-around bg-white py-12 lg:flex-col-reverse lg:px-4">
       <div className="flex max-w-[556px] flex-col gap-5 ">
         <small className="text-lg font-light uppercase text-amber">
           EXPERIENCES

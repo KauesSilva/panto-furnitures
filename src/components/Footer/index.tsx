@@ -1,6 +1,6 @@
 function Footer(): JSX.Element {
   return (
-    <footer className="flex min-h-[462px] w-full flex-col justify-center gap-24 bg-frost px-[188px] md:gap-10 lg:px-4">
+    <footer id="footer" className="flex min-h-[462px] w-full flex-col justify-center gap-24 bg-frost px-[188px] md:gap-10 lg:px-4">
       <div className="flex items-center justify-between md:flex-col md:gap-8">
         <div className="flex max-w-[293px] flex-col gap-7 md:max-w-full md:items-center">
           <h3 className="text-2xl font-semibold text-obsidian">Panto</h3>

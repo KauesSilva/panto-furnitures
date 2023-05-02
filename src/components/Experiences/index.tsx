@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Experiences(): JSX.Element {
   return (
-    <section className="flex w-full items-center justify-around bg-white pt-12 lg:h-screen lg:flex-col lg:px-4">
+    <section id="experiences" className="flex w-full items-center justify-around bg-white pt-12 lg:h-screen lg:flex-col lg:px-4">
       <div>
         <Image
           src={experiences}

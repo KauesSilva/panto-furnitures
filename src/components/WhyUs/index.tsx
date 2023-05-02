@@ -2,7 +2,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 export default function WhyUs() {
   return (
-    <section className="flex w-full items-center justify-center gap-32 bg-white px-20 py-28 lg:flex-col lg:gap-16 lg:px-4">
+    <section id="whyUs" className="flex w-full items-center justify-center gap-32 bg-white px-20 py-28 lg:flex-col lg:gap-16 lg:px-4">
       <div className="max-w-[15rem]">
         <h2 className="text-4xl font-semibold text-obsidian">
           Why Choosing Us

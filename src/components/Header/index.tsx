@@ -4,7 +4,7 @@ import hero from "/public/assets/sections-img/header.png";
 
 function Header(): JSX.Element {
   return (
-    <header className="flex h-screen w-full flex-col items-center gap-10">
+    <header id="header" className="flex h-screen w-full flex-col items-center gap-10">
       <Image
         src={hero}
         alt="Living room with a orange sofa"
