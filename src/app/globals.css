@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 * {
-    scroll-behavior: smooth;
     overflow-x: hidden;
     list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
