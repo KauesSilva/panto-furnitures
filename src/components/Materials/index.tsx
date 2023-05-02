@@ -8,15 +8,13 @@ function Materials(): JSX.Element {
     <section id="materials" className="flex min-h-screen w-full items-center justify-around bg-white py-12 lg:flex-col-reverse lg:px-4">
       <div className="flex max-w-[556px] flex-col gap-5 ">
         <small className="text-lg font-light uppercase text-amber">
-          EXPERIENCES
+          MATERIALS
         </small>
         <h2 className="overflow-hidden text-4xl font-semibold text-obsidian">
-          We Provide You The Best Experience
+          Very serious materials for making furniture
         </h2>
         <p className="text-lg font-light text-obsidian ">
-          You don&apos;t have to worry about the result because all of these
-          interiors are made by people who are professionals in their fields
-          with an elegant and lucurious style and with premium quality materials
+          Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price
         </p>
         <div className="mt-1 flex items-center">
           <a className="text-sm font-medium text-amber" href="#">
