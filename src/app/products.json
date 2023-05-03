@@ -62,10 +62,10 @@
   "lamp": [
     {
       "id": 1,
-      "name": "Old Lamp",
+      "name": "Modern Lamp",
       "category": "lamp",
       "price": "29.99",
-      "image": "/assets/products/lamp/Old Lamp.png"
+      "image": "/assets/products/lamp/Modern Lamp.png"
     },
     {
       "id": 2,
