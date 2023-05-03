@@ -14,7 +14,7 @@ function SellingProducts(): JSX.Element {
 
   return (
     <section id="sellingProducts" className="flex w-full flex-col items-center justify-center bg-frost px-32 py-12 lg:px-4">
-      <div className="flex justify-center h-20">
+      <div className="flex justify-center">
         <h2 className="mb-8 text-4xl font-semibold text-obsidian">
           Best Selling Product
         </h2>

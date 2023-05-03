@@ -5,21 +5,21 @@ import Image from "next/image";
 
 function Experiences(): JSX.Element {
   return (
-    <section id="experiences" className="flex w-full items-center justify-around bg-white pt-12 lg:h-screen lg:flex-col lg:px-4">
+    <section id="experiences" className="flex w-full items-center justify-around bg-white pt-12 lg:h-screen lg:flex-col lg:justify-center lg:gap-5 lg:px-4">
       <div>
         <Image
           src={experiences}
           width={629}
           height={445}
           alt="Image"
-          className="rounded-[20px] md:h-[326px] md:w-[375px]"
+          className="rounded-3xl lg:h-[345px] lg:w-[529px]"
         />
       </div>
-      <div className="flex max-w-[556px] flex-col gap-5 ">
+      <div className="flex max-w-[556px] flex-col gap-5">
         <small className="text-lg font-light uppercase text-amber">
           EXPERIENCES
         </small>
-        <h2 className="overflow-hidden text-4xl font-semibold text-obsidian">
+        <h2 className="text-4xl font-semibold text-obsidian">
           We Provide You The Best Experience
         </h2>
         <p className="text-lg font-light text-obsidian ">

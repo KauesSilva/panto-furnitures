@@ -5,16 +5,18 @@ import Image from "next/image";
 
 function Materials(): JSX.Element {
   return (
-    <section id="materials" className="flex min-h-screen w-full items-center justify-around bg-white py-12 lg:flex-col-reverse lg:px-4">
-      <div className="flex max-w-[556px] flex-col gap-5 ">
+    <section id="materials" className="flex w-full items-center justify-around bg-white py-12 lg:h-screen lg:flex-col-reverse lg:justify-center lg:gap-5 lg:px-4">
+      <div className="flex max-w-[556px] flex-col gap-5">
         <small className="text-lg font-light uppercase text-amber">
           MATERIALS
         </small>
-        <h2 className="overflow-hidden text-4xl font-semibold text-obsidian">
+        <h2 className="text-4xl font-semibold text-obsidian">
           Very serious materials for making furniture
         </h2>
         <p className="text-lg font-light text-obsidian ">
-          Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price
+          Because panto was very serious about designing furniture for our
+          environment, using a very expensive and famous capital but at a
+          relatively low price
         </p>
         <div className="mt-1 flex items-center">
           <a className="text-sm font-medium text-amber" href="#">
@@ -29,7 +31,7 @@ function Materials(): JSX.Element {
           width={629}
           height={445}
           alt="Image"
-          className="md:h-[326px] md:w-[375px]"
+          className="lg:h-[370px] lg:w-[529px]"
         />
       </div>
     </section>

@@ -9,7 +9,7 @@ export default function WhyUs() {
         </h2>
       </div>
       <div className="flex gap-10 lg:flex-col">
-        <div className="flex w-72 flex-col gap-8 lg:w-auto">
+        <div className="flex w-72 flex-col gap-8 lg:w-full">
           <h3 className="text-2xl font-semibold text-obsidian">
             Luxury facilities
           </h3>
@@ -24,7 +24,7 @@ export default function WhyUs() {
             <HiArrowLongRight className="h-6 w-12 text-amber" />
           </div>
         </div>
-        <div className="flex w-72 flex-col gap-8  lg:w-auto">
+        <div className="flex w-72 flex-col gap-8  lg:w-full">
           <h3 className="text-2xl font-semibold text-obsidian">
             Affordable Price
           </h3>
@@ -39,7 +39,7 @@ export default function WhyUs() {
             <HiArrowLongRight className="h-6 w-12 text-amber" />
           </div>
         </div>
-        <div className="flex w-72 flex-col gap-8 lg:w-auto">
+        <div className="flex w-72 flex-col gap-8 lg:w-full">
           <h3 className="text-2xl font-semibold text-obsidian">
             Many Choices
           </h3>
