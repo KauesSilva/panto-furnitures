@@ -14,7 +14,7 @@ export default function WhyUs() {
             Luxury facilities
           </h3>
           <p className="text-base font-light text-obsidian">
-            The advantage of hiring a workspace with us is that givees you
+            The advantage of hiring a workspace with us is that gives you
             comfortable service and all-around facilities.
           </p>
           <div className="flex items-center">
@@ -29,8 +29,8 @@ export default function WhyUs() {
             Affordable Price
           </h3>
           <p className="text-base font-light text-obsidian">
-            You can get a workspace of the highst quality at an affordable price
-            and still enjoy the facilities that are oly here.
+            You can get a workspace of the highest quality at an affordable price
+            and still enjoy the facilities that are only here.
           </p>
           <div className="flex items-center">
             <a className="text-sm font-medium text-amber" href="#">

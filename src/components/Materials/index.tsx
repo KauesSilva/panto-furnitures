@@ -14,7 +14,7 @@ function Materials(): JSX.Element {
           Very serious materials for making furniture
         </h2>
         <p className="text-lg font-light text-obsidian ">
-          Because panto was very serious about designing furniture for our
+          Because Panto was very serious about designing furniture for our
           environment, using a very expensive and famous capital but at a
           relatively low price
         </p>

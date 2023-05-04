@@ -16,7 +16,7 @@ function SellingProducts(): JSX.Element {
     <section id="sellingProducts" className="flex w-full flex-col items-center justify-center bg-frost px-32 py-12 lg:px-4">
       <div className="flex justify-center">
         <h2 className="mb-8 text-4xl font-semibold text-obsidian">
-          Best Selling Product
+          Best Selling Products
         </h2>
       </div>
       <ButtonGroup

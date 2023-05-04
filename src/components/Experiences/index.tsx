@@ -20,12 +20,12 @@ function Experiences(): JSX.Element {
           EXPERIENCES
         </small>
         <h2 className="text-4xl font-semibold text-obsidian">
-          We Provide You The Best Experience
+        We Provide You With The Best Experience
         </h2>
         <p className="text-lg font-light text-obsidian ">
           You don&apos;t have to worry about the result because all of these
           interiors are made by people who are professionals in their fields
-          with an elegant and lucurious style and with premium quality materials
+          with an elegant and luxurious style and premium quality materials
         </p>
         <div className="mt-1 flex items-center">
           <a className="text-sm font-medium text-amber" href="#">

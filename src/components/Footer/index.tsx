@@ -5,7 +5,7 @@ function Footer(): JSX.Element {
         <div className="flex max-w-[293px] flex-col gap-7 md:max-w-full md:items-center">
           <h3 className="text-2xl font-semibold text-obsidian">Panto</h3>
           <p className="text-base font-light text-obsidian">
-            The advantage of hiring a workspace with us is that givees you
+            The advantage of hiring a workspace with us is that gives you
             comfortable service and all-around facilities.
           </p>
         </div>
