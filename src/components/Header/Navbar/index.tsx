@@ -6,12 +6,17 @@ import { FaTimes } from "react-icons/fa";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
 function Navbar(): JSX.Element {
-  const [menu, setMenu] = useState(false);
-  const [productCounter, setProductCounter] = useState(8);
-
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
   return (
     <>
-      <nav className="z-0 flex h-[10%] w-full items-center justify-around bg-transparent md:justify-between md:px-8">
+      <nav
+        className={
+          menuOpen
+            ? `z-20 flex h-[10%] w-full items-center md:justify-between md:px-8`
+            : `z-0 flex h-[10%] w-full items-center justify-around bg-transparent md:justify-between md:px-8`
+        }
+      >
         <div>
           <p className="text-2xl font-semibold text-white">Panto</p>
         </div>
@@ -42,48 +47,48 @@ function Navbar(): JSX.Element {
           </a>
         </div>
         <div className="hidden transition-all md:flex">
-          {menu ? (
+          {menuOpen ? (
             <FaTimes
               className="text-3xl font-light text-white hover:text-amber hover:transition-colors"
-              onClick={() => setMenu(!menu)}
+              onClick={() => setMenuOpen(!menuOpen)}
             />
           ) : (
             <HiBars3BottomRight
               className="text-3xl font-light text-white hover:text-amber hover:transition-colors"
-              onClick={() => setMenu(!menu)}
+              onClick={() => setMenuOpen(!menuOpen)}
             />
           )}
         </div>
         <div className="hidden">
-          <BsHandbagFill className="text-2xl text-white "/>
+          <BsHandbagFill className="text-2xl text-white " />
         </div>
       </nav>
-      {menu && (
+      {menuOpen && (
         <div
           className="fixed z-10 flex h-screen w-screen items-center justify-center"
-          onClick={() => setMenu(false)}
+          onClick={toggleMenu}
         >
           <div className="flex h-full w-full flex-col items-center  justify-center rounded-lg bg-obsidian">
             <a
-              href="#"
+              href="#experiences"
               className="mb-2 block text-center text-xl font-medium text-white hover:text-amber"
             >
               Furniture
             </a>
             <a
-              href="#"
+              href="#sellingProducts"
               className="mb-2 block text-center text-xl font-medium text-white hover:text-amber"
             >
               Shop
             </a>
             <a
-              href="#"
+              href="#whyUs"
               className="mb-2 block text-center text-xl font-medium text-white hover:text-amber"
             >
               About Us
             </a>
             <a
-              href="#"
+              href="#footer"
               className="mb-2 block text-center text-xl font-medium text-white hover:text-amber"
             >
               Contact
