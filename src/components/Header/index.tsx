@@ -14,7 +14,7 @@ function Header(): JSX.Element {
       />
       <Navbar />
       <div className="relative flex max-w-[62.5rem] flex-col gap-4 text-center">
-        <h1 className="overflow-hidden text-7xl font-semibold text-white sm:text-5xl">
+        <h1 className="text-7xl font-semibold text-white sm:text-5xl">
           Minimalistic &amp; Modern Furniture for Your Home
         </h1>
         <p className="text-2xl font-light text-[#B1B1B3] sm:text-xl">
