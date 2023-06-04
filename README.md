@@ -3,9 +3,9 @@
     <p>A modern landing page built using Next with TypeScript and styled with Tailwind CSS.</p>
 </div>
 
-![](https://raw.githubusercontent.com/KauesSilva/movie-searcher/main/src/assets/readme/desktop-dark.png)
+![](https://raw.githubusercontent.com/KauesSilva/panto-furnitures/main/src/assets/readme/bg.png)
 <br>
-![](https://raw.githubusercontent.com/KauesSilva/movie-searcher/main/src/assets/readme/mockup-mobile.png)
+![](https://raw.githubusercontent.com/KauesSilva/panto-furnitures/main/src/assets/readme/bg2.png)
 
 ## 🚀 How to use it
 
