@@ -11,7 +11,7 @@
 
 **Access Remotely**
 
-<a href="https://ts-panto-furnitures.vercel.app" target="_blank">https://ts-panto-furnitures.vercel.app</a>
+<a href="https://panto-furnitures.vercel.app/" target="_blank">https://panto-furnitures.vercel.app/</a>
 
 **Run the site locally**
 
