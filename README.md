@@ -1,40 +1,94 @@
-<<<<<<< HEAD
-# panto-furnitures
-=======
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+    <h1>Panto</h1>
+    <p>A modern landing page built using Next with TypeScript and styled with Tailwind CSS.</p>
+</div>
 
-## Getting Started
+![](https://raw.githubusercontent.com/KauesSilva/movie-searcher/main/src/assets/readme/desktop-dark.png)
+<br>
+![](https://raw.githubusercontent.com/KauesSilva/movie-searcher/main/src/assets/readme/mockup-mobile.png)
 
-First, run the development server:
+## 🚀 How to use it
+
+**Access Remotely**
+
+<a href="https://ts-panto-furnitures.vercel.app" target="_blank">https://ts-panto-furnitures.vercel.app</a>
+
+**Run the site locally**
+
+_NOTE: The default branch for this repo is `main`, when you push or pull make sure you specify the correct branch_
+
+### Step 1: Clone The Repo
+
+Clone the repo locally by doing
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/KauesSilva/panto-furnitures.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Step 2: Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+cd into the directory
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+```bash
+cd panto-furnitures
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+install all the dependencies
+```bash
+npm install
+```
 
-## Learn More
+or 
+```bash
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Step 3: Start Development Server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Then start the development Server
+```
+yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+or 
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+## 🔧 Tools Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<div align="left">
+    <a href="https://nextjs.org/docs" target="_blank">
+        <img alt="Next" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    </a>
+    <a href="https://pt-br.reactjs.org/" target="_blank">
+        <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    </a>
+    <a href="https://www.typescriptlang.org/docs/" target="_blank">
+        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+    </a>
+    <a href="https://tailwindcss.com/" target="_blank">
+        <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    </a>
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
->>>>>>> 6e71fe1 (first commit)
+## ✌️Contributing
+
+*NOTE: if you want to change, add, or fix something in the repo content you can do that cloning the repositorie locally*
+
+
+### Pushing the changes
+
+After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
+
+```bash
+git add .
+git commit -m "commit message"
+git push YOUR_REPO_URL main
+```
+
+_NOTE: The default branch for this repo is `main`, when you push or pull make sure you specify the correct branch_
+
+------
+
+Made with ❤️
