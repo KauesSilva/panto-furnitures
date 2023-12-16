@@ -1,4 +1,4 @@
-<div align="center">
+z<div align="center">
     <h1>Panto</h1>
     <p>A modern landing page built using Next with TypeScript and styled with Tailwind CSS.</p>
 </div>
@@ -60,9 +60,6 @@ npm run dev
 <div align="left">
     <a href="https://nextjs.org/docs" target="_blank">
         <img alt="Next" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    </a>
-    <a href="https://pt-br.reactjs.org/" target="_blank">
-        <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
     </a>
     <a href="https://www.typescriptlang.org/docs/" target="_blank">
         <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
